@@ -76,7 +76,7 @@ async def download_video(update: Update, context):
         await update.message.reply_text(f"An error occurred: {str(e)}")
 
 if __name__ == "__main__":
-    app = ApplicationBuilder().token("7915050018:AAG7LezlH4JgjeovWBKtqwmiOVg2AqBFYhg").build()
+    app = ApplicationBuilder().token("7868580875:AAEejPBpzEIMsSFf2XX8hOoNQ8ehDNA5oT0").build()
     
     # Add Command Handlers
     app.add_handler(CommandHandler("start", start))
